@@ -1,5 +1,9 @@
 // Exponential map function with variable scaling
-// Found with Google :)
+//
+// Floating Point Autoscale Function V0.1
+// Written by Paul Badger 2007
+// Modified from code by Greg Shakar
+
 float fscale(float inputValue, float originalMin, float originalMax, float newBegin, float newEnd, float curve) {
   float OriginalRange = 0;
   float NewRange = 0;
